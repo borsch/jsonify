@@ -82,7 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src/main.cpp" />
-    <ClCompile Include="src\jsonify.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="test.json" />
