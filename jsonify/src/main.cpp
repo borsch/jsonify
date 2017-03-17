@@ -15,9 +15,7 @@ int main()
 	{
 		s += line;
 	}
-
-	cout << s << endl;
-
+	
 	jsonify json(s);
 
 	system("pause");
