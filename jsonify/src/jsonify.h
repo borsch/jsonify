@@ -35,6 +35,7 @@ namespace jsonify_
 		jsonify(const string&);
 		~jsonify();
 		converter operator[](const string&);
+		bool contains(const string&);
 	private:
 		void parse(const string&);
 	};
@@ -245,6 +246,11 @@ namespace jsonify_
 			return NULL;
 		}
 		return *c;
+	}
+
+	bool jsonify::contains(const string& key)
+	{
+		return _data[key] != NULL;
 	}
 }
 

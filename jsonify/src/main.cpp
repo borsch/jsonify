@@ -10,13 +10,8 @@ string read(const string& path);
 
 int main()
 {
-	string source = read("test.json");
-	
-	jsonify json(source);
-	int a = json["int"].as_int();
-	cout << a << endl;
+	jsonify json(read("test.json"));
 
-	system("pause");
 	return 0;
 }
 
