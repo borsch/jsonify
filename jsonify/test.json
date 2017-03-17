@@ -1,7 +1,6 @@
 {
-	"ab": 1,
-	"asd": "asd{asda ef awef",
-    "a": [1, 2, 3],
-    "i": 2,
-    "b": 1.124
+	"int": 1,
+	"string": "asd{asda ef awef",
+    "vector_int": [1, 2, 3],
+    "double": 1.124
 }
